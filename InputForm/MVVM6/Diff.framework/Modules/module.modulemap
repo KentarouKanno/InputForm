@@ -1,0 +1,10 @@
+framework module Diff {
+  umbrella header "Diff-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Diff.Swift {
+    header "Diff-Swift.h"
+}

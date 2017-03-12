@@ -1,0 +1,15 @@
+//
+//  ImageURLPresentable.swift
+//  ProtocolOrientedMVVM
+//
+//  Created by kumapo on 2016/11/23.
+//  Copyright © 2016年 kumapo. All rights reserved.
+//
+
+import Foundation
+import UIKit
+
+protocol ImageURLPresentable {
+    var imageURL: URL? { get }
+    var placeholderImage: UIImage { get }
+}
